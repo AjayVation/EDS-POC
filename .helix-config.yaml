@@ -1,2 +1,11 @@
-mountpoints:
-  /: https://drive.google.com/drive/folders/1AOYVhj6hletzSf8CS9uTZA7y5lMF_-hR
+{
+  "content": {
+    "sources": [
+      {
+        "url": "https://drive.google.com/drive/folders/1AOYVhj6hletzSf8CS9uTZA7y5lMF_-hR",
+        "mountpoint": "/"
+      }
+    ]
+  }
+}
+
