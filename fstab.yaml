@@ -1,8 +1,8 @@
 mountpoints:
   /: https://drive.google.com/drive/folders/1AOYVhj6hletzSf8CS9uTZA7y5lMF_-hR
-  /about: https://docs.google.com/document/d/1jDW5gkqBdQejg2j0eKjThab2MT1DF7lXcNCEU6Xxuug/edit?tab=t.0/edit
-  /contact: https://docs.google.com/document/d/1fE4EP6mMYpMOSMrlPQRDCYFMr-90l7mA8lv5KKHBV-4/edit?tab=t.0/edit
-  /footer: https://docs.google.com/document/d/1aCsLU8QKxrt-cFJqpD6AzFYx8PLPHiXf7zn41G8kL3o/edit?tab=t.0/edit
-  /nav: https://docs.google.com/document/d/1uNxSVJxLTaaXdiLNragVaAXV3y_SLGmnjvvZSVVS9wE/edit?tab=t.0/edit
-  /products: https://docs.google.com/document/d/1j-1Jw1EDUz3I7BkrgSDg8VS891LSjS6nATW0Iu9YHDs/edit?tab=t.0/edit
-  /services: https://docs.google.com/document/d/1DSthgrtx31lg1HQnbISLNnmBxtq_p4p6H2whEbTGAqg/edit?tab=t.0/edit
+  /about: https://docs.google.com/document/d/1jDW5gkqBdQejg2j0eKjThab2MT1DF7lXcNCEU6Xxuug/edit
+  /contact: https://docs.google.com/document/d/1fE4EP6mMYpMOSMrlPQRDCYFMr-90l7mA8lv5KKHBV-4/edit
+  /footer: https://docs.google.com/document/d/1aCsLU8QKxrt-cFJqpD6AzFYx8PLPHiXf7zn41G8kL3o/edit
+  /nav: https://docs.google.com/document/d/1uNxSVJxLTaaXdiLNragVaAXV3y_SLGmnjvvZSVVS9wE/edit
+  /products: https://docs.google.com/document/d/1j-1Jw1EDUz3I7BkrgSDg8VS891LSjS6nATW0Iu9YHDs/edit
+  /services: https://docs.google.com/document/d/1DSthgrtx31lg1HQnbISLNnmBxtq_p4p6H2whEbTGAqg/edit
