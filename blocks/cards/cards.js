@@ -1,17 +1,28 @@
-import { createOptimizedPicture } from '../../scripts/aem.js';
+import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
 
-export default function decorate(block) {
-  /* change to ul, li */
+export default async function decorate(block) {
+    console.log("block",block)
+  const res = await fetch("https://dummyjson.com/products");
+  const { products } = await res.json();
+  console.log("products",products)
   const ul = document.createElement('ul');
-  [...block.children].forEach((row) => {
+  ul.classList.add('product-list');
+
+  products.forEach((product) => {
     const li = document.createElement('li');
-    while (row.firstElementChild) li.append(row.firstElementChild);
-    [...li.children].forEach((div) => {
-      if (div.children.length === 1 && div.querySelector('picture')) div.className = 'cards-card-image';
-      else div.className = 'cards-card-body';
-    });
+    li.classList.add('product-item');
+
+    const picture = createOptimizedPicture(product.images, product.title, false, [{ width: '750' }]);
+    const title = document.createElement('h3');
+    title.textContent = product.title;
+
+    const price = document.createElement('p');
+    price.textContent = `$${product.price}`;
+
+    li.append(picture, title, price);
     ul.append(li);
   });
-  ul.querySelectorAll('picture > img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
-  block.replaceChildren(ul);
+
+  block.textContent = ''; // Clear existing content
+  block.append(ul);
 }
