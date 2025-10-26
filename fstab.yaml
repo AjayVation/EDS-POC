@@ -1,5 +1,5 @@
 mountpoints:
-  /: https://drive.google.com/drive/folders/1AOYVhj6hletzSf8CS9uTZA7y5lMF_-hR
+  /: https://docs.google.com/document/d/1XyzABC1234567890abcdefg/edit  # ← Replace with your actual index doc ID
   /about: https://docs.google.com/document/d/1jDW5gkqBdQejg2j0eKjThab2MT1DF7lXcNCEU6Xxuug/edit
   /contact: https://docs.google.com/document/d/1fE4EP6mMYpMOSMrlPQRDCYFMr-90l7mA8lv5KKHBV-4/edit
   /footer: https://docs.google.com/document/d/1aCsLU8QKxrt-cFJqpD6AzFYx8PLPHiXf7zn41G8kL3o/edit
